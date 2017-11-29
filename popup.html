@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Popup</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="login" class="login pimboo_main">
+      <img class="logo" height="34" src="/images/logo.png" />
+      <input id="login_in" name="login" placeholder="Username" />
+      <input id="password_in" name="password" type="password" placeholder="Password" />
+      <div class="butt-group">
+        <button id="login_button" type="button">LOGIN</button>
+        <a id="forgot_pass" href="#">Forgot Password?</a>
+        <img class="load" src="/images/ajax-loader.gif">
+      </div>
+      <div id="login_text"></div>
+    </div>
+    <div id="take_info" class="logged">
+      <img class="logo" height="34" src="/images/logo.png" />
+      <a id="logout">logout</a>
+      <div role="main" class="">
+          <button id="button_scrape">ZOOP THIS PAGE</button>
+          <img class="load" src="/images/ajax-loader.gif">
+          <div id="take_info_text"></div>
+      </div>
+    </div>
+    <div id="scrape">
+      <div class="head">
+        <img class="logo" height="34" src="/images/logo.png" />
+        <button id="edit">EDIT/ADD CONTENT</button>
+      </div>
+      <div id="scrape_info_text"></div>
+      <button id="button_post_from_scrape">POST TO MY ZOOPATROOPA PAGE</button>
+      <img class="load" src="/images/ajax-loader2.gif">
+      <div id="scrape_text"></div>
+    </div>
+    <div id="textarea">
+      <div class="head">
+        <img class="logo" height="34" src="/images/logo.png" />
+      </div>
+      <iframe name="target"  src=""></iframe>
+      <button id="button_post_from_textarea">POST TO MY ZOOPATROOPA PAGE</button>
+      <img class="load" src="/images/ajax-loader2.gif">
+      <div id="textarea_text"></div>
+    </div>
+    <div id="share">
+      <img class="logo" height="34" src="/images/logo.png" />
+      <div class="thank">Thank you.</div>
+      <div class="here">Here's your zoopatroopa URL</div>
+      <input id="share_url" name="share_url" placeholder="http://zoopatroopa.com/user/name-of-post" />
+      <div class="links">
+        <a id="fb">
+          <img src="/images/share-fb.png" />
+        </a>
+        <a id="tw">
+          <img src="/images/share-tw.png" />
+        </a>
+        <a id="gp">
+          <img src="/images/share-gp.png" />
+        </a>
+        <a id="blogger">
+          <img src="/images/share-blogger.png" />
+        </a>
+        <a id="reddit">
+          <img src="/images/share-reddit.png" />
+        </a>
+        <a id="tumblr">
+          <img src="/images/share-tumblr.png" />
+        </a>
+        <a id="linkedin">
+          <img src="/images/share-linkedin.png" />
+        </a>
+        <a id="pinterest">
+          <img src="/images/share-pinterest.png" />
+        </a>
+        <a id="some">
+          <img src="/images/share-some.png" />
+        </a>
+        <a id="skype">
+          <img src="/images/share-skype.png" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

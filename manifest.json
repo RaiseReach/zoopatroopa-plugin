@@ -1,0 +1,25 @@
+{
+	"name": "Zoopatroopa Money Plugin",
+	"version": "1.2.7",
+	"description": "Zoopatroopa Money Plugin",
+
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"http://zoopatroopa.com/*",
+		"http://cdn.tinymce.com/*",
+		"*://*/*"
+	],
+
+	"browser_action": {
+		"default_title": "Zoopatroopa",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+
+	"web_accessible_resources": [
+		"frame.html"
+	],
+
+	"manifest_version": 2
+}
